@@ -3,7 +3,7 @@ Unofficial implementation of 2021 Neurocomputing paper "VAE-based Deep SVDD for 
 
 Dataset: MNIST
 
-Normal class: 8 (Fpr example)
+Normal class: 8 (For example)
 
 Final Results:
 R: 6.612602472305298

@@ -66,7 +66,7 @@ class CVAE(tf.keras.Model):
         self.decoder = tf.keras.Sequential(
             [
                 tf.keras.layers.InputLayer(input_shape=(latent_dim,)),
-                tf.keras.layers.Dense(units=7*7*4, activation=tf.nn.relu),
+                tf.keras.layers.Dense(units=7*7*4),
                 tf.keras.layers.BatchNormalization(),
                 tf.keras.layers.LeakyReLU(alpha=0.2),
                 tf.keras.layers.Reshape(target_shape=(7, 7, 4)),

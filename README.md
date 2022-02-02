@@ -30,5 +30,7 @@ auc_roc: 0.8635820952566418
 Cannot reproduce similar results as paper's illustration
 
 References:
-1.https://github.com/lukasruff/Deep-SVDD-PyTorch
-2.https://github.com/nuclearboy95/Anomaly-Detection-Deep-SVDD-Tensorflow
+
+1. https://github.com/lukasruff/Deep-SVDD-PyTorch
+2. https://github.com/nuclearboy95/Anomaly-Detection-Deep-SVDD-Tensorflow
+3. https://www.tensorflow.org/tutorials/generative/cvae
